@@ -1,4 +1,4 @@
 <?php
-	include_once("index.html")
-	echo "hey"
+  header( 'Location: index.html' );
+  die();
 ?>
